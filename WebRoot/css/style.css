@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src:url(../fonts/Montserrat-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Oxygen-Regular';
+    src:url(../fonts/Oxygen-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src:url(../fonts/OpenSans-Regular.ttf) format('truetype');
+}
+html,body{
+	background:#fff;
+	font-size: 100%;
+	font-family: 'Oxygen-Regular';
+}
+
+.divr{
+	width: 50px;
+	height: 85px;
+}
+#hov font{
+	position: relative;
+	top:37px;
+	left: 13px;
+	font-family: "微软雅黑";
+	font-size: 2px;
+	color: #666666;
+	vertical-align:top;
+}
+#div1{
+	position: fixed;
+	right: 0px;
+	top:160px;
+	
+	background-color:#EFEFEF;
+} 
+#div2{
+	position: fixed;
+	right: 0px;
+	top:250px;
+	
+	background-color:#EFEFEF;
+}
+#div3{
+	position: fixed;
+	right: 0px;
+	top:340px;
+	
+	background-color:#EFEFEF;
+}
+#div4{
+	width: 50px;
+	height: 124px;
+	position: fixed;
+	right: 0px;
+	top:430px;
+	
+	background-color:#EFEFEF;
+}
+body a{
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+ ul{
+	padding: 0;
+	margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;	
+	font-family: 'Montserrat-Regular';
+}
+
+.w3layouts-login{
+	float:right;
+	margin-top: 8px;
+}
+
+.w3layouts-content {
+    padding:20px 0;
+}
+
+/*-- breadcrumbs --*/
+.w3layouts-breadcrumbs {
+	background:#1f8dd6;
+	padding:11px 0;
+	text-align:left;
+}
+/*-- //breadcrumbs --*/
+
+
+/*-- trains-page --*/
+.bnr-right input[type="text"] {
+      width: 100%;
+    color: rgb(119, 168, 214);
+    outline: none;
+    font-size: 14px;
+    padding: 10px 10px;
+    border: 1px solid rgb(94, 152, 207);
+    -webkit-appearance: none;
+    margin: 10px 0;
+}
+.date {
+   /*-- background: url(../images/date-icon.png) no-repeat 95.5% 45% #fff; --*/
+    cursor: pointer;
+}
+.bnr-left input[type="text"] {
+       width: 100%;
+    color: #777;
+    outline: none;
+    font-size: 14px;
+    padding: 10px 10px;
+    border: 1px solid rgb(83, 175, 211);
+    -webkit-appearance: none;
+    margin: 10px 0 12px 0;
+}
+.ban-top .inputLabel,.ban-bottom  .inputLabel {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 0px;
+	color: #191919;
+    margin-top: 10px;
+}
+
+.bnr-left {
+	position:relative;
+}
+.search{
+    margin: 0 auto;
+    text-align: center;
+}
+.search input[type="submit"]{
+    margin-top:1.5em;
+}
+.search input[type="submit"]:hover {
+	 background-color: #2c8bc2;
+}
+
+i.train-icon.fa {
+    font-size: 100px;
+    color: #247ec7;
+}
+button.seabtn:focus, button.seabtn:hover {
+    background-color: #1f8dd6;
+    outline: 0;
+}
+
+
+/*-- //trains-page --*/
+
+
+/*-- trains-list-page --*/
+.table-bordered.agileinfo {
+		border: 1px solid #ddd;
+		text-align: center!important;
+	}
+table.table.table-bordered.agileinfo th {
+    color: #ffffff;
+    background: #1a84c2;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+	td.af  ,td.af{
+		text-align: center!important;
+		margin:0 auto;
+	}
+
+	.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+		padding: 8px;
+		line-height: 12px;
+		vertical-align: middle;
+	}
+
+	.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+		border: 1px solid #d4d1d1;
+	}
+	td.price span {
+		text-decoration: line-through;
+		color: #1f8dd6;
+		font-size: 18px;
+		padding: 0em 0;
+		line-height: 3em;
+	}
+	td.price{
+			font-weight: 600;
+			color: #DF1E1C;
+			font-size: 22px;
+			margin-top: 64px;
+		}
+	.table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th {
+		border-top: 0;
+		text-align: center!important;
+		padding: 14px 0;
+        font-size: 16px;
+}
+
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+  font-size: 13px;
+    color: #276bb8;
+    letter-spacing: 1px;
+}
+
+/*-- //trains-list-page --*/
+
+/*--responsive--*/
+@media(max-width:1080px){
+	.w3_agile_support_right h3 {
+		font-size: 30px;
+		letter-spacing: 0px;
+	}
+	.w3-agile-offers h3 {
+		font-size: 2.2em;
+	}
+	.w3layouts-partners ul li {
+		width: 19.5%;
+	}
+	.w3-agile-subscribe-right {
+		padding-left: 0;
+	}
+	h3.w3-head {
+		font-size: 33px;
+	}
+	h3.m-head {
+		font-size: 23px;
+		letter-spacing: 1px;
+	}
+	.w3layouts-content {
+		padding: 50px 0;
+	}	
+}
+

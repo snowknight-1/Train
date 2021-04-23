@@ -1,0 +1,83 @@
+
+*{
+	margin: 0px;
+}
+.divr{
+	width: 50px;
+	height: 85px;
+}
+#hov font{
+	position: relative;
+	top:37px;
+	left: 13px;
+	font-family: "寰蒋闆呴粦";
+	font-size: 2px;
+	color: #666666;
+	vertical-align:top;
+}
+#div1{
+	position: fixed;
+	right: 0px;
+	top:160px;
+/*	background:url(../img/鍠囧彮.png) no-repeat 14px 14px;*/
+	background-color:#EFEFEF;
+} 
+#div2{
+	position: fixed;
+	right: 0px;
+	top:250px;
+/* 	background: url(../img/鐢佃瘽.png) no-repeat 14px 14px; */
+	background-color:#EFEFEF;
+}
+#div3{
+	position: fixed;
+	right: 0px;
+	top:340px;
+/* 	background: url(../img/浜岀淮鐮�png) no-repeat 14px 14px; */
+	background-color:#EFEFEF;
+}
+#div4{
+	width: 50px;
+	height: 124px;
+	position: fixed;
+	right: 0px;
+	top:430px;
+/* 	background: url(../img/鎹ф墜.png) no-repeat 14px 14px; */
+	background-color:#EFEFEF;
+}
+.wor{
+	font-size: 14px;
+	position: relative;
+	left:-10px
+}
+.wor li{
+	width:385px;/*璁剧疆li鐨勫搴�/
+	line-height:35px;/*璁剧疆li闂寸殑璺濈*/
+	white-space:nowrap; /*涓嶈鏂囧瓧鍐呭鎹㈣*/
+    overflow:hidden;/*鏂囧瓧婧㈠嚭鐨勯儴鍒嗛殣钘忚捣鏉�/
+    text-overflow:ellipsis; /*鐢�..鏇夸唬婧㈠嚭鐨勯儴鍒�/
+}
+#div5 li{
+	font-family: "寰蒋闆呴粦";
+	line-height: 30px;
+}
+.dat{
+	color:darkgray;
+	font-size: 12px;
+}
+#left_list{
+	float: left;
+	width:555px;
+	height:175px;
+	position: relative;
+	top:18px;
+	right:15px;
+}
+#right_list{
+	float: right;
+	width:555px;
+	height:175px;
+	position: relative;
+	top:18px;
+	right:15px;
+}

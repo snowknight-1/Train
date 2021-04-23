@@ -1,0 +1,185 @@
+
+*{
+	margin: 0px;
+}
+.divr{
+	width: 50px;
+	height: 85px;
+}
+#hov font{
+	position: relative;
+	top:37px;
+	left: 13px;
+	font-family: "微软雅黑";
+	font-size: 2px;
+	color: #666666;
+	vertical-align:top;
+}
+#div1{
+	position: fixed;
+	right: 0px;
+	top:160px;
+	background:url(../img/喇叭.png) no-repeat 14px 14px;
+	background-color:#EFEFEF;
+} 
+#div2{
+	position: fixed;
+	right: 0px;
+	top:250px;
+	background: url(../img/电话.png) no-repeat 14px 14px;
+	background-color:#EFEFEF;
+}
+#div3{
+	position: fixed;
+	right: 0px;
+	top:340px;
+	background: url(../img/二维码.png) no-repeat 14px 14px;
+	background-color:#EFEFEF;
+}
+#div4{
+	width: 50px;
+	height: 124px;
+	position: fixed;
+	right: 0px;
+	top:430px;
+	background: url(../img/捧手.png) no-repeat 14px 14px;
+	background-color:#EFEFEF;
+}
+.wor{
+	font-size: 14px;
+	position: relative;
+	left:-10px
+}
+.wor li{
+	width:385px;/*设置li的宽度*/
+	line-height:35px;/*设置li间的距离*/
+	white-space:nowrap; /*不让文字内容换行*/
+    overflow:hidden;/*文字溢出的部分隐藏起来*/
+    text-overflow:ellipsis; /*用...替代溢出的部分*/
+}
+#div5 li{
+	font-family: "微软雅黑";
+	line-height: 30px;
+}
+.dat{
+	color:darkgray;
+	font-size: 12px;
+}
+
+#time
+{
+	border:1px solid #3B99FC;
+	text-align: center;
+	height: 40px;
+	padding:20px 50px 10px 50px;
+	margin: 5px 250px 5px 250px; 
+}
+#order{
+	border:1px solid #3B99FC;
+	text-align: center;
+	height: 300px;
+	padding:20px 50px 10px 50px;
+	margin: 5px 250px 5px 250px; 
+}
+.table 
+{ 
+width: 100%; 
+padding: 0; 
+margin: 0; 
+} 
+th { 
+font: bold 12px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+color: #4f6b72; 
+border-right: 1px solid #C1DAD7; 
+border-bottom: 1px solid #C1DAD7; 
+border-top: 1px solid #C1DAD7; 
+letter-spacing: 2px; 
+text-transform: uppercase; 
+text-align: left; 
+padding: 6px 6px 6px 12px; 
+background: #CAE8EA no-repeat; 
+} 
+td { 
+border-right: 1px solid #C1DAD7; 
+border-bottom: 1px solid #C1DAD7; 
+background: #fff; 
+font-size:14px; 
+padding: 6px 6px 6px 12px; 
+color: #4f6b72; 
+} 
+td.alt { 
+background: #F5FAFA; 
+color: #797268; 
+} 
+th.spec,td.spec { 
+border-left: 1px solid #C1DAD7; 
+} 
+#cancelButton{
+	 line-height: 1.499;
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    background-image: none;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.015);
+    box-shadow: 0 2px 0 rgba(0,0,0,0.015);
+    cursor: pointer;
+    -webkit-transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    height: 32px;
+    padding: 0 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    color: rgba(0,0,0,0.65);
+    background-color: #fff;
+    border-color: #d9d9d9;
+   
+    border-color: #FF5A44;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+    box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+    margin: 30px 5px 5px 5px;
+}
+#payButton{
+	 line-height: 1.499;
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    background-image: none;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.015);
+    box-shadow: 0 2px 0 rgba(0,0,0,0.015);
+    cursor: pointer;
+    -webkit-transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    height: 32px;
+    padding: 0 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    color: rgba(0,0,0,0.65);
+    background-color: #fff;
+    border-color: #d9d9d9;
+     color: #fff;
+    background-color: #FF5A44;
+    border-color: #FF5A44;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+    box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+    margin: 30px 5px 5px 5px;
+}

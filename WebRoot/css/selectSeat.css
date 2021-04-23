@@ -1,0 +1,13 @@
+.seat{
+	width:10%;
+	height:100px;	
+	font-size:20px;
+	color: #505050;
+	background-color: rgb(245,245,245);
+	display: inline-block;
+	line-height: 100px;
+}
+.seat h3{
+	font-size:20px;
+}
+
